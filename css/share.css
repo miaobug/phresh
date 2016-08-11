@@ -1,0 +1,50 @@
+#header{
+    top: -90px;
+    position:fixed;
+    height: 84px;
+    display:block;
+    width: 100%;
+    background-color: RGBA(256, 256, 256, 0.9);
+    /*z-index:9;*/
+    text-align:center;
+    /*color: #f2f2f2;*/
+    /*padding: 20px 0 0 0;*/
+    transition: 1s;
+    font-size: 14px;
+}
+
+#logo {
+    text-align: left;
+    padding-left: 9.08%;
+}
+
+#logo-img {
+    /*position: absolute;*/
+    left: 10px;
+    height: 9.08%;
+    margin-top: 14px;
+}
+
+.nav-bar {
+    position: absolute;
+    right: 1%;
+}
+
+.nav-bar > .selected {
+    color: #1abc9c;
+}
+
+.nav-item {
+    /*right: -100px;*/
+    height: 84px;
+    text-align: center;
+    margin-top: 30px;
+    color: #333;
+    /*line-height: 84px;*/
+}
+
+@media (min-width: 1000px) {
+    .nav-item {
+        right: -100px;
+    }
+}

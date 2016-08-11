@@ -29,6 +29,27 @@ body {
     transition: 1s;
 }
 
+#s1-more {
+    position: absolute;
+    bottom: 10%;
+    width: 100%;
+    text-align: center;
+    font-size: 36px;
+    color: #fff;
+
+}
+
+.more-out {
+    transition: 0.3s 1s;
+    opacity: 0;
+}
+
+.more-in {
+    transition: 0.3s 1s;
+    opacity: 1;
+}
+
+
 #section-2 {
     background-image: url("../img/product/2/background.png");
 }
