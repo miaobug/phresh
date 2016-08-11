@@ -67,12 +67,33 @@ body {
     height: 62.76%;
 }
 
-#s2-robot-img {
+#s2-robot-img, #s2-robot-img-liang{
     position: absolute;
     right: 27%;
     bottom: 45%;
-    width: 15.67%;
-    /*height: 24.83%;*/
+}
+
+@media (min-width: 800px) {
+    #s2-robot-img, #s2-robot-img-liang {
+        width: auto;
+        height: 24.83%;
+    }
+}
+
+@media (max-width: 800px) {
+    #s2-robot-img, #s2-robot-img-liang {
+        width: 20%;
+        height: auto;
+    }
+}
+
+@keyframes blinking {
+    0% { opacity: 0; }
+    100% { opacity: 1;}
+}
+
+#s2-robot-img-liang {
+    animation: 1s 2.3s blinking linear infinite forwards normal;
 }
 
 #s2-view-more {
@@ -84,12 +105,12 @@ body {
     font-size: 22px;
 }
 
-#s2-robot-img.s2-out {
+#s2-robot-img-liang.s2-out, #s2-robot-img.s2-out {
     transition: 0s 1s;
     opacity: 0;
 }
 
-#s2-robot-img.s2-in {
+#s2-robot-img-liang.s2-in, #s2-robot-img.s2-in {
     transition: 1s 0.4s;
     opacity: 1;
 }

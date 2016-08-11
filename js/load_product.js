@@ -66,6 +66,8 @@ $(document).ready(function() {
             if(index == 2){
                 $('#s2-robot-img').removeClass('s2-in');
                 $('#s2-robot-img').addClass('s2-out');
+                $('#s2-robot-img-liang').removeClass('s2-in');
+                $('#s2-robot-img-liang').addClass('s2-out');
                 $('#s2-middle-img').removeClass('s2-in');
                 $('#s2-middle-img').addClass('s2-out');
                 $('#s2-view-more').removeClass('s2-in');
@@ -84,6 +86,8 @@ $(document).ready(function() {
             if(index == 2){
                 $('#s2-robot-img').removeClass('s2-out');
                 $('#s2-robot-img').addClass('s2-in');
+                $('#s2-robot-img-liang').removeClass('s2-out');
+                $('#s2-robot-img-liang').addClass('s2-in');
                 $('#s2-middle-img').removeClass('s2-out');
                 $('#s2-middle-img').addClass('s2-in');
                 $('#s2-view-more').removeClass('s2-out');
