@@ -84,6 +84,16 @@ body {
     font-size: 22px;
 }
 
+#s2-robot-img.s2-out {
+    transition: 0s 1s;
+    opacity: 0;
+}
+
+#s2-robot-img.s2-in {
+    transition: 1s 0.4s;
+    opacity: 1;
+}
+
 .s2-out {
     transition: 0s 1s;
     opacity: 0;
