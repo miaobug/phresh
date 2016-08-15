@@ -87,8 +87,8 @@ body {
         height: 517px;
         position: absolute;
         margin-top: -259px;
-        margin-left: -395px;
-        padding-top: 30px;
+        margin-left: -410px;
+        padding-top: 34px;
     }
 }
 
@@ -98,7 +98,18 @@ body {
         height: 413px;
         position: absolute;
         margin-top: -206px;
-        margin-left: -316px;
+        margin-left: -365px;
+        padding-top: 30px;
+    }
+}
+
+@media (max-height: 640px) {
+    #s2-middle-div {
+        width: 632px;
+        height: 413px;
+        position: absolute;
+        margin-top: -206px;
+        margin-left: -365px;
         padding-top: 30px;
     }
 }
