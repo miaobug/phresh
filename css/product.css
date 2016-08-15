@@ -2,9 +2,7 @@ body {
 
 }
 
-html {
-    font-size: 62.5%;
-}
+
 
 .section {
     background-size: 100% 100%;
@@ -56,9 +54,21 @@ html {
     position: absolute;
     bottom: 10%;
     right: 9.90%;
-    font-size: 32px;
+    /*font-size: 32px;*/
     color: #fff;
     text-decoration: underline;
+}
+
+@media (max-width: 1000px) {
+    #s1-more {
+        font-size: 26px;
+    }
+}
+
+@media (min-width: 1000px) {
+    #s1-more {
+        font-size: 32px;
+    }
 }
 
 .more-out {
@@ -95,19 +105,19 @@ html {
     bottom: 45%;
 }
 
-@media (min-width: 800px) {
-    #s2-robot-img, #s2-robot-img-liang {
-        width: auto;
-        height: 24.83%;
-    }
-}
+/*@media (min-width: 800px) {*/
+    /*#s2-robot-img, #s2-robot-img-liang {*/
+        /*width: auto;*/
+        /*height: 24.83%;*/
+    /*}*/
+/*}*/
 
-@media (max-width: 800px) {
-    #s2-robot-img, #s2-robot-img-liang {
-        width: 20%;
-        height: auto;
-    }
-}
+/*@media (max-width: 800px) {*/
+    /*#s2-robot-img, #s2-robot-img-liang {*/
+        /*width: 20%;*/
+        /*height: auto;*/
+    /*}*/
+/*}*/
 
 @keyframes blinking {
     0% { opacity: 0; }
