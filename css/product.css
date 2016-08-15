@@ -2,10 +2,15 @@ body {
 
 }
 
-
+html {
+    font-size: 62.5%;
+}
 
 .section {
     background-size: 100% 100%;
+    min-width: 800px !important;
+    /*min-height: 600px !important;*/
+    /*overflow-x: scroll !important;*/
     /*background-size: cover;*/
 }
 
@@ -13,34 +18,47 @@ body {
 /* section 1 */
 
 #section-1 {
-    background-image: url("../img/product/1/background.png");
+    background: url("../img/product/1/background.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#s1-technology {
+    position: absolute;
+    right: 9.90%;
+    bottom: 39.22%;
+
+    width: 15.94%;
 }
 
 #s1-words-img {
     position: absolute;
     width: 40.13%;
-    height: 12.69%;
-    right: 10%;
+    /*height: 12.69%;*/
+    right: 9.90%;
 }
 
+
+
 #section-1 .out {
-    bottom: -20%;
+    top: 120%;
     transition: 0s 1s;
 }
 
 #section-1 .in {
-    bottom: 23%;
+    top: 64.31%;
     transition: 1s;
 }
 
 #s1-more {
     position: absolute;
     bottom: 10%;
-    width: 100%;
-    text-align: center;
-    font-size: 36px;
+    right: 9.90%;
+    font-size: 32px;
     color: #fff;
-
+    text-decoration: underline;
 }
 
 .more-out {
@@ -56,7 +74,11 @@ body {
 /* section 2 */
 
 #section-2 {
-    background-image: url("../img/product/2/background.png");
+    background: url("../img/product/2/background.png") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 #s2-middle-img {
@@ -92,7 +114,7 @@ body {
     100% { opacity: 1;}
 }
 
-#s2-robot-img-liang {
+#s2-robot-img-liang.s2-in {
     animation: 1s 2.3s blinking linear infinite forwards normal;
 }
 
@@ -125,10 +147,30 @@ body {
     opacity: 1;
 }
 
+
+/* section 3 */
+
 #section-3 {
-    background-image: url("../img/product/3/background.png");
+    background: url("../img/product/3/background-baoxian.png") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
+#s3-good-staw {
+    position: absolute;
+    left: 41.5%;
+}
+
+
+
+
+/* section 4 */
 #section-4 {
-    background-image: url("../img/product/4/background.png");
+    background: url("../img/product/4/background.png") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
