@@ -220,20 +220,45 @@ body {
     margin-left: -16%;
 }
 
+.s3-out {
+    transition: 0s 1s;
+    opacity: 0;
+}
+
+.s3-in {
+    opacity: 1;
+}
+
 #s3-left {
     position: absolute;
     width: 24%;
-    left: 15%;
     top: 18%;
     z-index: 1;
+    transition: 1s 1s;
+}
+
+#s3-left.s3-in {
+    left: 15%;
+}
+
+#s3-left.s3-out {
+    left: -3000px;
 }
 
 #s3-left-word {
     position: absolute;
     width: 43.20%;
     top: 45%;
-    left: 2%;
     z-index: 1;
+    transition: 1s 1s;
+}
+
+#s3-left-word.s3-in {
+    left: 2%;
+}
+
+#s3-left-word.s3-out {
+    left: -3000px;
 }
 
 #s3-good-staw {
@@ -250,6 +275,7 @@ body {
     left: 50%;
     width: 38%;
     margin-left: -19%;
+    transition: 2s;
 }
 
 #s3-shadow {
@@ -265,6 +291,15 @@ body {
     position: absolute;
     right: 16%;
     bottom: 28%;
+    transition: 1s 1s;
+}
+
+#s3-right.s3-in {
+    right: 16%;
+}
+
+#s3-right.s3-out {
+    right: -3000px;
 }
 
 #s3-right-word {
@@ -273,12 +308,22 @@ body {
     right: 6%;
     bottom: 63%;
     z-index: 1;
+    transition: 1s 1s;
+}
+
+#s3-right-word.s3-in {
+    right: 6%;
+}
+
+#s3-right-word.s3-out {
+    right: -3000px;
 }
 
 .s3-sentence {
     text-align: center;
     width: 100%;
     position: absolute;
+    transition: 1s 2s;
 }
 
 #s3-sentence-1 {
@@ -313,4 +358,34 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    text-align: center;
+}
+
+#s4-huanjing {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-left: -113px;
+    width: 227px;
+}
+
+/* The same to s3-millder-div */
+#s4-middle-div {
+    position: absolute;
+    width: 706px;
+    height: 614px;
+    left: 50%;
+    top: 50%;
+    margin-left: -353px;
+    margin-top: -250px;
+}
+
+#s4-dash {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-left: -300px;
+    width: 600px;
+    height: 0px;
+    border-top:1px solid white;
 }

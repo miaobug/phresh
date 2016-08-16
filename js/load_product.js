@@ -73,6 +73,27 @@ $(document).ready(function() {
                 $('#s2-view-more').removeClass('s2-in');
                 $('#s2-view-more').addClass('s2-out');
             }
+            if(index == 3){
+                $('#s3-bad-staw').removeClass('s3-in');
+                $('#s3-bad-staw').addClass('s3-out');
+                $('#s3-left').removeClass('s3-in');
+                $('#s3-left').addClass('s3-out');
+                $('#s3-left-word').removeClass('s3-in');
+                $('#s3-left-word').addClass('s3-out');
+                $('#s3-right').removeClass('s3-in');
+                $('#s3-right').addClass('s3-out');
+                $('#s3-right-word').removeClass('s3-in');
+                $('#s3-right-word').addClass('s3-out');
+                $('#s3-sentence-1').removeClass('s3-in');
+                $('#s3-sentence-1').addClass('s3-out');
+                $('#s3-sentence-2').removeClass('s3-in');
+                $('#s3-sentence-2').addClass('s3-out');
+                $('#s3-sentence-3').removeClass('s3-in');
+                $('#s3-sentence-3').addClass('s3-out');
+                $('#s3-sentence-4').removeClass('s3-in');
+                $('#s3-sentence-4').addClass('s3-out');
+
+            }
         },
         afterLoad: function(anchorLink, index){
             console.log(anchorLink, index);
@@ -92,6 +113,26 @@ $(document).ready(function() {
                 $('#s2-middle-img').addClass('s2-in');
                 $('#s2-view-more').removeClass('s2-out');
                 $('#s2-view-more').addClass('s2-in');
+            }
+            if(index == 3){
+                $('#s3-bad-staw').removeClass('s3-out');
+                $('#s3-bad-staw').addClass('s3-in');
+                $('#s3-left').removeClass('s3-out');
+                $('#s3-left').addClass('s3-in');
+                $('#s3-left-word').removeClass('s3-out');
+                $('#s3-left-word').addClass('s3-in');
+                $('#s3-right').removeClass('s3-out');
+                $('#s3-right').addClass('s3-in');
+                $('#s3-right-word').removeClass('s3-out');
+                $('#s3-right-word').addClass('s3-in');
+                $('#s3-sentence-1').removeClass('s3-out');
+                $('#s3-sentence-1').addClass('s3-in');
+                $('#s3-sentence-2').removeClass('s3-out');
+                $('#s3-sentence-2').addClass('s3-in');
+                $('#s3-sentence-3').removeClass('s3-out');
+                $('#s3-sentence-3').addClass('s3-in');
+                $('#s3-sentence-4').removeClass('s3-out');
+                $('#s3-sentence-4').addClass('s3-in');
             }
         },
         afterRender: function(){},
