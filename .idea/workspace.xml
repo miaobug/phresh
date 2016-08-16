@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f08c2b05-505f-4911-b769-4c16ea6c1409" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/product/3/play.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/product/3/shadow.png" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/product/3/background-baoxian.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/product/3/background-caomei.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/load_index.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/product/3/bad.png" afterPath="$PROJECT_DIR$/img/product/3/bad.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/product/3/good.png" afterPath="$PROJECT_DIR$/img/product/3/good.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/product.css" afterPath="$PROJECT_DIR$/css/product.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/product.html" afterPath="$PROJECT_DIR$/product.html" />
     </list>
     <ignored path="phresh.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,80 +32,80 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="product.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="product.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/product.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.71910113">
-              <caret line="112" column="26" selection-start-line="112" selection-start-column="26" selection-end-line="112" selection-end-column="26" />
+            <state vertical-scroll-proportion="-12.235294">
+              <caret line="303" column="19" selection-start-line="303" selection-start-column="19" selection-end-line="303" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="information.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/product/2/information.png">
+      <file leaf-file-name="share.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/share.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-20.625">
+              <caret line="33" column="18" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bad.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/product/3/bad.png">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="1-all.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/product/1/1-all.png">
+      <file leaf-file-name="shadow.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/product/3/shadow.png">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="robot1.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/product/2/robot1.png">
+      <file leaf-file-name="good.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/product/3/good.png">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="all.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/product/2/all.png">
+      <file leaf-file-name="left-word.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/product/3/left-word.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="right-word.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/product/3/right-word.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="left.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/product/3/left.png">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="background.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/product/1/background.png">
+        <entry file="file://$PROJECT_DIR$/img/product/3/background.png">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="technology.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/product/1/technology.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="words.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/product/1/words.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="load_product.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/load_product.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="65" column="27" selection-start-line="65" selection-start-column="27" selection-end-line="65" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="product.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="product.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/product.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.125">
-              <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+            <state vertical-scroll-proportion="0.8689138">
+              <caret line="58" column="69" selection-start-line="58" selection-start-column="69" selection-end-line="58" selection-end-column="69" />
               <folding />
             </state>
           </provider>
@@ -335,9 +344,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/img/product/3" />
       <recent name="$PROJECT_DIR$/img/product/2" />
       <recent name="$PROJECT_DIR$/img/product/1" />
-      <recent name="$PROJECT_DIR$/img/product/3" />
       <recent name="$PROJECT_DIR$/img" />
       <recent name="$PROJECT_DIR$/js/lib" />
     </key>
@@ -562,50 +571,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/share.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.0">
-          <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/product/3/background-caomei.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/product/3/left-word.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/product/3/bad.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/product/2/robot-liang.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/img/product/2/robot-normal.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/product/3/good.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/product/3/left.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/product/3/background.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -663,23 +634,76 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/product.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.125">
-          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/product/2/all.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/img/product/3/baoxian.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/product/3/background.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/product/3/background.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/product/3/left.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/product/3/right-word.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/product/3/left-word.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/product/3/shadow.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/product/3/good.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/product/3/bad.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/share.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.625">
+          <caret line="33" column="18" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/product.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.71910113">
-          <caret line="112" column="26" selection-start-line="112" selection-start-column="26" selection-end-line="112" selection-end-column="26" />
+        <state vertical-scroll-proportion="-12.235294">
+          <caret line="303" column="19" selection-start-line="303" selection-start-column="19" selection-end-line="303" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8689138">
+          <caret line="58" column="69" selection-start-line="58" selection-start-column="69" selection-end-line="58" selection-end-column="69" />
           <folding />
         </state>
       </provider>

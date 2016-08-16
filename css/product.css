@@ -96,7 +96,6 @@ body {
     #s2-middle-div {
         width: 632px;
         height: 413px;
-        position: absolute;
         margin-top: -206px;
         margin-left: -365px;
         padding-top: 30px;
@@ -107,7 +106,6 @@ body {
     #s2-middle-div {
         width: 632px;
         height: 413px;
-        position: absolute;
         margin-top: -206px;
         margin-left: -365px;
         padding-top: 30px;
@@ -115,6 +113,7 @@ body {
 }
 
 #s2-middle-div {
+    position: absolute;
     left: 50%;
     top: 50%;
 }
@@ -192,19 +191,119 @@ body {
 /* section 3 */
 
 #section-3 {
-    background: url("../img/product/3/background-baoxian.png") no-repeat center center;
+    background: url("../img/product/3/background.jpg") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
 
-#s3-good-staw {
+#s3-middle-div {
     position: absolute;
-    left: 41.5%;
+    width: 706px;
+    height: 614px;
+    left: 50%;
+    top: 50%;
+    margin-left: -353px;
+    margin-top: -250px;
+    /*border: dashed;*/
 }
 
 
+
+#s3-baoxian {
+    /*opacity: 0;*/
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    width: 29.74%;
+    margin-left: -16%;
+}
+
+#s3-left {
+    position: absolute;
+    width: 24%;
+    left: 15%;
+    top: 18%;
+    z-index: 1;
+}
+
+#s3-left-word {
+    position: absolute;
+    width: 43.20%;
+    top: 45%;
+    left: 2%;
+    z-index: 1;
+}
+
+#s3-good-staw {
+    position: absolute;
+    top: 17%;
+    left: 50%;
+    width: 38%;
+    margin-left: -19%;
+}
+
+#s3-bad-staw {
+    position: absolute;
+    top: 17%;
+    left: 50%;
+    width: 38%;
+    margin-left: -19%;
+}
+
+#s3-shadow {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    margin-left: -25%;
+    width: 50%;
+}
+
+
+#s3-right {
+    position: absolute;
+    right: 16%;
+    bottom: 28%;
+}
+
+#s3-right-word {
+    position: absolute;
+    width: 33.00%;
+    right: 6%;
+    bottom: 63%;
+    z-index: 1;
+}
+
+.s3-sentence {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+}
+
+#s3-sentence-1 {
+    font-size: 24px;
+    color: #999;
+    bottom: 25%;
+}
+
+#s3-sentence-2 {
+    font-size: 38px;
+    color: #333;
+    bottom: 15%;
+}
+
+#s3-sentence-3 {
+    font-size: 38px;
+    color: #333;
+    bottom: 8%;
+}
+
+#s3-sentence-4 {
+    font-size: 40px;
+    color: #1abc9c;
+    bottom: 0%;
+}
 
 
 /* section 4 */
