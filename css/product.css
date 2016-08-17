@@ -7,30 +7,17 @@ body {
 .section {
     background-size: 100% 100%;
     min-width: 800px !important;
-    /*min-height: 600px !important;*/
-    /*overflow-x: scroll !important;*/
-    /*background-size: cover;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-
     text-align: center;
     overflow: hidden;
 
 }
 
-
-/* section 1 */
-
-
-/*@media (max-width: 768px) {*/
-    /*#section-1 {*/
-        /*background: url("http://7xqex8.com5.z0.glb.clouddn.com/img/p1/background.jpg-768") no-repeat center center fixed;*/
-    /*}*/
-/*}*/
 
 @media (max-width: 992px) {
     #section-1 {
@@ -55,13 +42,10 @@ body {
     right: 9.90%;
     bottom: 39.22%;
     width: 227px;
-    /*width: 15.94%;*/
 }
 
 #s1-words-img {
     position: absolute;
-    /*width: 40.13%;*/
-    /*height: 12.69%;*/
     width: 571px;
     right: 9.90%;
 }
@@ -99,14 +83,6 @@ body {
 }
 
 /* section 2 */
-
-/*#section-2 {*/
-    /*background: url("http://7xqex8.com5.z0.glb.clouddn.com/img/p2/background.jpg-1451x776") no-repeat center center;*/
-    /*-webkit-background-size: cover;*/
-    /*-moz-background-size: cover;*/
-    /*-o-background-size: cover;*/
-    /*background-size: cover;*/
-/*}*/
 
 @media (max-width: 992px) {
     #section-2 {
@@ -164,12 +140,6 @@ body {
 }
 
 #s2-middle-img {
-    /*position: absolute;*/
-    /*top: 23.87%;*/
-    /*left: 20%;*/
-    /*width: 55.5%;*/
-    /*width: 791px;*/
-    /*height: 62.76%;*/
     width: 100%;
 }
 
@@ -180,19 +150,7 @@ body {
     bottom: 44%;
 }
 
-/*@media (min-width: 800px) {*/
-    /*#s2-robot-img, #s2-robot-img-liang {*/
-        /*width: auto;*/
-        /*height: 24.83%;*/
-    /*}*/
-/*}*/
 
-/*@media (max-width: 800px) {*/
-    /*#s2-robot-img, #s2-robot-img-liang {*/
-        /*width: 20%;*/
-        /*height: auto;*/
-    /*}*/
-/*}*/
 
 @keyframes blinking {
     0% { opacity: 0; }
@@ -235,14 +193,6 @@ body {
 
 /* section 3 */
 
-#section-3 {
-    /*background: url("http://7xqex8.com5.z0.glb.clouddn.com/img/p3/background.jpg-1451x776") no-repeat center center;*/
-    /*-webkit-background-size: cover;*/
-    /*-moz-background-size: cover;*/
-    /*-o-background-size: cover;*/
-    /*background-size: cover;*/
-    /*overflow: hidden;*/
-}
 
 @media (max-width: 992px) {
     #section-3 {
@@ -267,7 +217,6 @@ body {
     left: 50%;
     top: 50%;
 
-    /*border: dashed;*/
 }
 
 @media (min-height: 730px) {
@@ -289,7 +238,6 @@ body {
 }
 
 #s3-baoxian {
-    /*opacity: 0;*/
     position: absolute;
     top: 0%;
     left: 50%;
@@ -435,16 +383,7 @@ body {
 }
 
 
-
-#section-4 {
-    /*background: url("http://7xqex8.com5.z0.glb.clouddn.com/img/p4/background.jpg-1451x776") no-repeat center center;*/
-    /*-webkit-background-size: cover;*/
-    /*-moz-background-size: cover;*/
-    /*-o-background-size: cover;*/
-    /*background-size: cover;*/
-    /*text-align: center;*/
-    /*overflow: hidden;*/
-}
+/* section 4 */
 
 @media (max-width: 992px) {
     #section-4 {
