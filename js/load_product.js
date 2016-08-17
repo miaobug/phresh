@@ -74,6 +74,7 @@ $(document).ready(function() {
                 $('#s2-view-more').addClass('s2-out');
             }
             if(index == 3){
+
                 $('#s3-bad-staw').removeClass('s3-in');
                 $('#s3-bad-staw').addClass('s3-out');
                 $('#s3-left').removeClass('s3-in');
@@ -92,7 +93,11 @@ $(document).ready(function() {
                 $('#s3-sentence-3').addClass('s3-out');
                 $('#s3-sentence-4').removeClass('s3-in');
                 $('#s3-sentence-4').addClass('s3-out');
-
+                //
+                //$('#s3-left').css("display", "none");
+                //$('#s3-left-word').css("display", "none");
+                //$('#s3-right').css("display", "none");
+                //$('#s3-right-word').css("display", "none");
             }
         },
         afterLoad: function(anchorLink, index){
@@ -115,6 +120,11 @@ $(document).ready(function() {
                 $('#s2-view-more').addClass('s2-in');
             }
             if(index == 3){
+                //$('#s3-left').css("display", "");
+                //$('#s3-left-word').css("display", "");
+                //$('#s3-right').css("display", "");
+                //$('#s3-right-word').css("display", "");
+
                 $('#s3-bad-staw').removeClass('s3-out');
                 $('#s3-bad-staw').addClass('s3-in');
                 $('#s3-left').removeClass('s3-out');
