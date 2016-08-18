@@ -46,7 +46,16 @@
 	font-size: 20px;
 	color: #1abc9c;
 }
-
+.header-nav{
+	margin:0 10px;border-color: transparent;padding:5px 5px;background: transparent;
+}
+.icon-item{
+	background-color:#1abc9c;
+	margin-bottom: 6px;
+}
+.icon-item-bottom{
+	background-color:#1abc9c;
+}
 .navigation
 {
     position: fixed;
