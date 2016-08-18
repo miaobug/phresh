@@ -67,6 +67,8 @@ $(document).ready(function() {
             if(index == 1){
                 $('#s1-words-img').removeClass('in');
                 $('#s1-words-img').addClass('out');
+                $('#s1-words-img-mobile').removeClass('in');
+                $('#s1-words-img-mobile').addClass('out');
 
                 $('#s1-more').removeClass('more-in');
                 $('#s1-more').addClass('more-out');
@@ -123,6 +125,8 @@ $(document).ready(function() {
             if(index == 1){
                 $('#s1-words-img').removeClass('out');
                 $('#s1-words-img').addClass('in');
+                $('#s1-words-img-mobile').removeClass('out');
+                $('#s1-words-img-mobile').addClass('in');
 
                 $('#s1-more').removeClass('more-out');
                 $('#s1-more').addClass('more-in');
