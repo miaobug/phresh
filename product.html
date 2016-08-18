@@ -2,23 +2,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name=”viewport” content=”width=device-width”>
     <title>Product</title>
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
 
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="css/lib/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/lib/jquery.fullPage.css" />
     <link rel="stylesheet" type="text/css" href="css/product.css">
     <link rel="stylesheet" href="css/share.css">
+
     <script defer src="js/lib/jquery.min.js"></script>
     <script defer type="text/javascript" src="js/lib/jquery.fullPage.js"></script>
     <script defer src="js/lib/jquery.lazyload.min.js"></script>
     <script defer src="js/load_product.js"></script>
-
-    <!--Bootstrap-->
-    <link rel="stylesheet" href="css/lib/bootstrap.min.css">
-
+    <script src="js/lib/jquery.min.js"></script>
+	<script type="text/javascript" src="//dn-common.qbox.me/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/lib/jquery.fullPage.js"></script>
 </head>
 <body>
-<div id="header">
+<div id="header" class="hidden-xs">
     <div class="row">
         <div class="col-md-7 col-xs-5 header-col" id="logo">
             <img src="http://7xqex8.com5.z0.glb.clouddn.com/logo.png" alt="" id="logo-img">
@@ -33,6 +35,45 @@
 
     </div>
 </div>
+<div id="header-mobile" class="visible-xs">
+	<div class="row">
+		<div class="col-xs-3 header-col" style="float: left;">
+            <img src="img/logo.png" alt="" id="logo-img-mobile">
+        </div>
+        <div class="col-xs-6" style="padding-top: 5px;">
+        	<span class="header-title">产品详情</span>
+        </div>
+        <div class="col-xs-3" style="float:right;width:15%;">
+            <a href="#" class="navbar-toggle collapsed btn btn-default" data-toggle="collapse" data-target=".navigation" style="margin:0 10px;border-color: transparent;padding:5px 5px;background: transparent;">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar" style="background-color:#1abc9c;width:28px;margin-bottom: 6px;"></span>
+                <span class="icon-bar" style="background-color:#1abc9c;width:28px;margin-bottom: 6px;"></span>
+                <span class="icon-bar" style="background-color:#1abc9c;width:28px;"></span>
+            </a>
+        </div>
+    </div>
+    <div class="navigation collapse hidden-md hidden-lg">
+        <div class="navigation-content">
+            <div class="navigation-menu-wrapper">
+                <div class="menu-container">
+                    <div class="menu-content">
+                        <ul class="menu-group" style="width:200px;">
+                            <li>
+                                <a href="index.html" class="menu-item">首页</a>
+                            </li>
+                            <li>
+                                <a class="menu-item" href="product.html">产品详情</a>
+                            </li>
+                            <li>
+                                <a class="menu-item" href="contact.html">联系我们</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>	
 <div id="fullpage">
 
     <!--<div class="lazy section" id="section-1" data-original="http://7xqex8.com5.z0.glb.clouddn.com/img/p1/background.jpg ">-->
@@ -40,6 +81,10 @@
         <img src="http://7xqex8.com5.z0.glb.clouddn.com/img/p1/technology.png" alt="" id="s1-technology">
         <img src="http://7xqex8.com5.z0.glb.clouddn.com/img/p1/words.png" alt="" id="s1-words-img" class="out">
         <div id="s1-more" class="more-out">查看更多>></div>
+        <img src="img/product/1/technology.png" alt="" id="s1-technology">
+        <img src="img/product/1/words.png" alt="" id="s1-words-img" class="out">
+        <img src="img/product/1/more.png" alt="" id="s1-more-img" class="visible-xs">
+        <div id="s1-more" class="more-out hidden-xs">查看更多>></div>
     </div>
 
     <!--<div class="lazy section" id="section-2" data-original="http://7xqex8.com5.z0.glb.clouddn.com/img/p2/background.jpg ">-->
@@ -67,7 +112,7 @@
             <div class="s3-sentence s3-out" id="s3-sentence-1">注:此图为培养基下细菌数量</div>
             <div class="s3-sentence s3-out" id="s3-sentence-2">有效去除蔬果中的有害细菌</div>
             <div class="s3-sentence s3-out" id="s3-sentence-3">2~3倍延长蔬果贮藏时间</div>
-            <div class="s3-sentence s3-out" id="s3-sentence-4">观看视频 <img src="img/product/3/play.png" alt=""></div>
+            <div class="s3-sentence s3-out" id="s3-sentence-4">观看视频 <img src="img/product/3/play.png" class="hidden-xs" alt=""><img src="img/product/3/play_white.png" class="visible-xs" style="width:22px;" alt=""></div>
         </div>
 
     </div>
@@ -80,6 +125,9 @@
             <div id="s4-sentence-1" class="s4-out">100%食品级天然有机物</div>
             <div id="s4-sentence-2" class="s4-out">保护环境更保护你</div>
             <div id="s4-view-more" class="s4-out">查看更多>></div>
+            <div id="s4-dash"></div>
+            <div id="s4-desc" class="visible-xs">100%食品级天然有机物<br>保护环境更保护你</div>
+            <img src="img/product/1/more.png" alt="" id="s4-more-img" class="visible-xs">
         </div>
     </div>
 </div>
