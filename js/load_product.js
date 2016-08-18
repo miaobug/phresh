@@ -5,7 +5,12 @@
 $(document).ready(function() {
     $("div.lazy").lazyload({
         effect : "fadeIn"
+    });	
+    $('.navigation').click(function(){
+        $(this).attr('aria-expanded','false');
+        $(this).removeClass('in');
     });
+    
     $('#fullpage').fullpage({
         //Navigation
         menu: '#menu',
@@ -180,4 +185,5 @@ $(document).ready(function() {
     });
 
     $('#header').css('top', '0px');
+    $('#header-mobile').css('top', '0px');
 });

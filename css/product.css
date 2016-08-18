@@ -7,6 +7,16 @@ body {
 .section {
     background-size: 100% 100%;
     min-width: 800px !important;
+    /*min-height: 600px !important;*/
+    /*overflow-x: scroll !important;*/
+    /*background-size: cover;*/
+}
+
+
+/* section 1 */
+
+#section-1 {
+    background: url("../img/product/1/background.png") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -97,9 +107,13 @@ body {
 }
 
 @media (min-width: 1201px) {
-    #section-2 {
-        background-image: url("http://7xqex8.com5.z0.glb.clouddn.com/img/p2/background.jpg-1451");
-    }
+#section-2 {
+    background-image: url("http://7xqex8.com5.z0.glb.clouddn.com/img/p2/background.jpg-1451");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-x: inherit;
 }
 
 @media (min-width: 1100px) {
@@ -122,7 +136,6 @@ body {
         padding-top: 30px;
     }
 }
-
 @media (max-height: 640px) {
     #s2-middle-div {
         width: 632px;
@@ -131,7 +144,7 @@ body {
         margin-left: -365px;
         padding-top: 30px;
     }
-}
+}    
 
 #s2-middle-div {
     position: absolute;
@@ -500,4 +513,329 @@ body {
 #s4-view-more.s4-out {
     transition: 0s 1s;
     top: 185%;
+}
+@media (max-width: 479px) {
+	.section {
+		min-width: 100px !important;	
+	}	
+    
+    #s1-technology {
+    	width: 100px;
+    }	
+    #s1-words-img {
+    	width: 280px;
+    }	
+    #s1-more-img{
+    	position: absolute;
+    	width: 100px;
+    	right: 9.90%;
+    	bottom: 16%;
+    }
+    #s2-view-more {
+	  right: 8%;
+	  bottom: 10%;
+	  font-size: 14px;
+	}
+	
+    #s2-middle-div {
+      width: 90%;
+	  height: 240px;
+	  margin-top: -206px;
+	  margin-left: -190px;
+	  padding-top: 30px;
+    }
+    #s3-middle-div {
+    	margin-left: -150px;	
+    }	
+	#s3-baoxian {
+	  top: 10%;
+	  left: 12%;
+	  width: 15%;
+	  margin-left: 0;
+	}
+	#s3-left.s3-in {
+	  left: 4%;
+	}
+	#s3-left {
+	  width: 10%;
+	  top: 30%;
+	}
+	#s3-left-word.s3-in {
+	  left: 0%;
+	}
+	#s3-left-word {
+	  width: 22%;
+	  top: 42%;
+	  margin-left: -2%;
+	}
+	#s3-shadow {
+	  top: 51%;
+	  left: 36%;
+	  width: 20%;
+	}
+	#s3-good-staw {
+	  top: 25%;
+	  left: 30%;
+	  width: 20%;
+	}
+	#s3-bad-staw {
+	  top: 25%;
+	  left: 30%;
+	  width: 20%;
+	}	
+	#s3-right.s3-in {
+	  right: 64%;
+	}
+	#s3-right {
+	  bottom: 48%;
+	  width: 10%;
+	}
+	#s3-right-word.s3-in {
+	  right: 55%;
+	}
+	#s3-right-word {
+	  width: 18.00%;
+	  bottom: 60%;
+	}
+	.s3-sentence {
+		width: 44%;	
+	}	
+	#s3-sentence-1 {
+	  font-size: 14px;
+	  bottom: 40%;
+	}
+	#s3-sentence-2 {
+	  font-size: 16px;
+	  bottom: 32%;
+	}
+	#s3-sentence-3 {
+	  font-size: 16px;
+	  bottom: 28%;
+	}
+	#s3-sentence-4 {
+	  color: #fff;
+	  bottom: 20%;
+	  display: inline-block;
+	  margin-bottom: 0;
+	  font-weight: normal;
+	  text-align: center;
+	  vertical-align: middle;
+	  cursor: pointer;
+	  background-image: none;
+	  border: 1px solid transparent;
+	  white-space: nowrap;
+	  padding: 6px 10px;
+	  font-size: 14px;
+	  line-height: 1.4;
+	  border-radius: 5px;
+	  -webkit-user-select: none;
+	  -moz-user-select: none;
+	  -ms-user-select: none;
+	  user-select: none;
+	  width: 120px;
+	  left: 13%;
+	  background-color: #1abc9c;
+	}
+	#section-4 {
+	    background: url("../img/product/4/BG_02.png") no-repeat right top;
+	    -webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	    background-size: cover;
+	    text-align: center;
+	}
+	#s4-huanjing {
+		left: 35%;
+  		width: 25%;
+  		margin-left: 0px;
+	}	
+	#s4-middle-div {
+	  width: 60%;
+  	  left: 20%;
+	  margin-left: 0px;
+	}
+	#s4-dash {
+		left: 0;
+		width: 100%;
+		margin-left: 0;	
+	}	
+	#s4-desc{
+		position: absolute;
+		top: 35%;
+		left: 12%;
+		text-align: center;
+		color: #ffffff;
+		font-size: 18px;
+	}
+	#s4-more-img {
+	  position: absolute;
+	  width: 100px;
+	  top: 55%;
+	  left: 28%;
+	}
+}
+
+
+
+@media (min-width: 480px) and  (max-width: 767px) {
+	.section {
+		min-width: 100px !important;	
+	}	
+    
+    #s1-technology {
+    	width: 100px;
+    }	
+    #s1-words-img {
+    	width: 280px;
+    }	
+    #s1-more-img{
+    	position: absolute;
+    	width: 100px;
+    	right: 9.90%;
+    	bottom: 8%;
+    }
+    #s2-view-more {
+	  right: 8%;
+	  bottom: 10%;
+	  font-size: 14px;
+	}
+	
+    #s2-middle-div {
+      width: 60%;
+	  height: 420px;
+	  margin-top: -206px;
+	  margin-left: -220px;
+	  padding-top: 100px;
+    }
+    #s3-middle-div {
+    	margin-left: -150px;	
+    	height: 500px;
+    	top: 60%;
+    }	
+	#s3-baoxian {
+	  top: 20%;
+	  left: 15%;
+	  width: 15%;
+	  margin-left: 0;
+	}
+	#s3-left.s3-in {
+	  left: 8%;
+	}
+	#s3-left {
+	  width: 10%;
+	  top: 35%;
+	}
+	#s3-left-word.s3-in {
+	  left: 3%;
+	}
+	#s3-left-word {
+	  width: 22%;
+	  top: 50%;
+	  margin-left: -2%;
+	}
+	#s3-shadow {
+	  top: 62%;
+	  left: 36%;
+	  width: 20%;
+	}
+	#s3-good-staw {
+	  top: 30%;
+	  left: 34%;
+	  width: 15%;
+	}
+	#s3-bad-staw {
+	  top: 30%;
+	  left: 34%;
+	  width: 15%;
+	}	
+	#s3-right.s3-in {
+	  right: 64%;
+	}
+	#s3-right {
+	  bottom: 40%;
+	  width: 10%;
+	}
+	#s3-right-word.s3-in {
+	  right: 55%;
+	}
+	#s3-right-word {
+	  width: 18.00%;
+	  bottom: 55%;
+	}
+	.s3-sentence {
+		width: 44%;	
+	}	
+	#s3-sentence-1 {
+	  font-size: 14px;
+	  bottom: 38%;
+	}
+	#s3-sentence-2 {
+	  font-size: 16px;
+	  bottom: 32%;
+	}
+	#s3-sentence-3 {
+	  font-size: 16px;
+	  bottom: 28%;
+	}
+	#s3-sentence-4 {
+	  color: #fff;
+	  bottom: 20%;
+	  display: inline-block;
+	  margin-bottom: 0;
+	  font-weight: normal;
+	  text-align: center;
+	  vertical-align: middle;
+	  cursor: pointer;
+	  background-image: none;
+	  border: 1px solid transparent;
+	  white-space: nowrap;
+	  padding: 6px 10px;
+	  font-size: 14px;
+	  line-height: 1.4;
+	  border-radius: 5px;
+	  -webkit-user-select: none;
+	  -moz-user-select: none;
+	  -ms-user-select: none;
+	  user-select: none;
+	  width: 120px;
+	  left: 13%;
+	  background-color: #1abc9c;
+	}
+	#section-4 {
+	    background: url("../img/product/4/BG_02.png") no-repeat right top;
+	    -webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	    background-size: cover;
+	    text-align: center;
+	}
+	#s4-huanjing {
+		left: 60%;
+		width: 15%;
+	}	
+	#s4-middle-div {
+	  width: 32%;
+	  left: 35%;
+	  top: 60%;
+	  margin-left: 0px;
+	}
+	#s4-dash {
+		left: 0;
+		width: 100%;
+		margin-left: 0;	
+	}	
+	#s4-desc{
+		position: absolute;
+		top: 35%;
+		left: 12%;
+		text-align: center;
+		color: #ffffff;
+		font-size: 18px;
+	}
+	#s4-more-img {
+	  position: absolute;
+	  width: 100px;
+	  top: 55%;
+	  left: 28%;
+	}	
 }
