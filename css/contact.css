@@ -1,0 +1,87 @@
+p {
+    margin-bottom: 0!important;
+}
+@media (max-width: 768px) {
+    #picture1 {
+        background-image: url(http://7xqex8.com5.z0.glb.clouddn.com/img/about/about_01.jpg-768);
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    #picture1 {
+        background-image: url(http://7xqex8.com5.z0.glb.clouddn.com/img/about/about_01.jpg-992);
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+    #picture1 {
+        background-image: url(http://7xqex8.com5.z0.glb.clouddn.com/img/about/about_01.jpg-1200);
+    }
+}
+
+@media (min-width: 1201px) {
+    #picture1 {
+        background-image: url(http://7xqex8.com5.z0.glb.clouddn.com/img/about/about_01.jpg-1451);
+    }
+}
+
+#picture1 {
+    margin-top: 84px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+#picture1:before {
+    content: "";
+    display: block;
+    padding-top: 37%;
+}
+
+#info-div {
+    background-color: #eee;
+}
+
+#logo-img-big {
+    width: 100%;
+}
+
+#logo-div {
+    margin-top: 76px;
+    text-align: center;
+}
+
+
+#brand-story-div {
+    margin-top: 92px;
+    padding-left: 93px;
+}
+
+
+@media (max-width: 991px) {
+    #logo-img-big {
+        width: 30%;
+    }
+    #brand-story-div {
+        padding-left: 15px;
+        margin: 0 10%;
+    }
+    #title-div {
+        text-align: center;
+    }
+}
+
+
+#title {
+    color: #1abc9c;
+    font-size: 46px;
+}
+
+#subtitle {
+    color: #1abc9c;
+    font-size: 30px;
+}
+
+#paragragh1 {
+    color: #333;
+    font-size: 20px;
+}
