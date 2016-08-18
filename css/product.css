@@ -10,6 +10,8 @@ body {
     /*min-height: 600px !important;*/
     /*overflow-x: scroll !important;*/
     /*background-size: cover;*/
+    overflow: hidden;
+    text-align: center;
 }
 
 
