@@ -11,6 +11,7 @@
     /*padding: 20px 0 0 0;*/
     transition: 1s;
     font-size: 14px;
+    z-index: 10;
 }
 #header-mobile{
     top: -90px;
@@ -33,7 +34,7 @@
 }
 
 #logo-img {
-    /*position: absolute;*/header
+    /*position: absolute;*/
     left: 10px;
     height: 60px;
     margin-top: 14px;

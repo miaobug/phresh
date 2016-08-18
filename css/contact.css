@@ -1,6 +1,11 @@
 p {
     margin-bottom: 0!important;
 }
+
+#container {
+    background-color: #eee;
+}
+
 @media (max-width: 768px) {
     #picture1 {
         background-image: url(http://7xqex8.com5.z0.glb.clouddn.com/img/about/about_01.jpg-768);
@@ -38,24 +43,41 @@ p {
 }
 
 #info-div {
-    background-color: #eee;
+    margin-top: 76px;
 }
 
 #logo-img-big {
     width: 100%;
 }
 
+
+
+/* 用了些trick实现垂直居中 */
+
+
 #logo-div {
-    margin-top: 76px;
+    /*margin-top: 76px;*/
     text-align: center;
+    /*display: inline-block;*/
+    /*vertical-align: middle;*/
+    /*float: none;*/
 }
 
 
 #brand-story-div {
-    margin-top: 92px;
+    /*margin-top: 72px;*/
+    /*display: inline-block;*/
+    /*vertical-align: middle;*/
+    /*float: none;*/
     padding-left: 93px;
+    line-height: 1.8;
 }
 
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none !important;
+}
 
 @media (max-width: 991px) {
     #logo-img-big {
@@ -70,18 +92,97 @@ p {
     }
 }
 
+#title-span {
+    line-height: 1;
+}
 
-#title {
+
+
+#paragraph1 {
+    padding-top: 50px;
+    color: #333;
+    font-size: 20px;
+}
+
+#about-us-div {
+    margin-top: 85px;
+}
+
+.title-div{
+    width: 100%;
+    text-align: center;
+}
+
+
+.title {
     color: #1abc9c;
     font-size: 46px;
 }
 
-#subtitle {
+.subtitle {
     color: #1abc9c;
     font-size: 30px;
 }
 
-#paragragh1 {
-    color: #333;
+#photo-div {
+    margin-top: 58px;
+}
+
+#photo {
+    width: 100%;
+}
+
+#about-us-text-div {
+    margin-top: 88px;
+}
+
+#about-us-text {
+    font-size: 25px;
+    color: #888;
+    line-height: 2;
+}
+
+#contact-us-div {
+    margin-top: 97px;
+    margin-bottom: 60px;
+}
+
+#info {
+    background-color: #1abc9c;
+}
+
+#contact-div {
+    height: 300px;
+    margin: auto 0;
+}
+
+
+
+#map-div {
+    width: 90%;
+    margin: 44px auto;
+}
+
+#map {
+    width: 100%;
+}
+
+span.glyphicon {
+    font-size: 40px;
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.contact {
+    height: 100px;
+    display: table;
+}
+
+span.info-item {
+    padding-left: 34px;
     font-size: 20px;
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
 }
