@@ -185,6 +185,17 @@ $(document).ready(function() {
         }
     });
 
+    $("#s3-sentence-4").click(function(){
+	    $(this).parent().hide();
+	    $("#video").show();
+	    $("#video")[0].play();
+    });
+
+    $('#video').on('ended',function(){
+       $("#video").hide();
+        $("#s3-sentence-4").parent().show();
+    });
+
     $('#header').css('top', '0px');
     $('#header-mobile').css('top', '0px');
 });
