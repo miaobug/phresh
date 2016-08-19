@@ -3,9 +3,6 @@
  */
 
 $(document).ready(function() {
-    $("div.lazy").lazyload({
-        effect : "fadeIn"
-    });	
     $('.navigation').click(function(){
         $(this).attr('aria-expanded','false');
         $(this).removeClass('in');
@@ -32,7 +29,7 @@ $(document).ready(function() {
         scrollBar: true,
         easing: 'easeInOutCubic',
         easingcss3: 'ease',
-        loopBottom: true,
+        loopBottom: false,
         loopTop: false,
         loopHorizontal: true,
         continuousVertical: false,
