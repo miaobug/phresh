@@ -250,7 +250,7 @@ span.info-item {
     background-color: #1abc9c;
 }
 
-#xs-contact1,#xs-contact2 {
+#xs-contact1 {
     padding-left: 10%;
 }
 
@@ -260,4 +260,11 @@ span.xs-info-item {
     color: white;
     display: table-cell;
     vertical-align: middle;
+}
+
+@media (max-width: 470px) {
+    #xs-contact1, #xs-contact2 {
+        width: 100%;
+        padding-left: 20%;
+    }
 }
