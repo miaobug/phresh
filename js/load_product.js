@@ -100,11 +100,10 @@ $(document).ready(function() {
                 $('#s3-sentence-3').addClass('s3-out');
                 $('#s3-sentence-4').removeClass('s3-in');
                 $('#s3-sentence-4').addClass('s3-out');
-                //
-                //$('#s3-left').css("display", "none");
-                //$('#s3-left-word').css("display", "none");
-                //$('#s3-right').css("display", "none");
-                //$('#s3-right-word').css("display", "none");
+
+                $("#video")[0].pause();
+                $("#video").hide();
+                $("#s3-sentence-4").parent().show();
             }
             if(index == 4){
                 $('#s4-dash').removeClass('s4-in');
@@ -192,7 +191,7 @@ $(document).ready(function() {
     });
 
     $('#video').on('ended',function(){
-       $("#video").hide();
+        $("#video").hide();
         $("#s3-sentence-4").parent().show();
     });
 
