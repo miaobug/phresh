@@ -185,7 +185,7 @@ $(document).ready(function() {
         }
     });
 
-    $("#s3-sentence-4").click(function(){
+    $(".video-play").click(function(){
 	    $(this).parent().hide();
 	    $("#video").show();
 	    $("#video")[0].play();

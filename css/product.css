@@ -7,6 +7,10 @@ video {
 	height: 100%;
 }
 
+.video-play {
+	cursor: pointer;
+}
+
 .section {
     background-size: 100% 100%;
     min-width: 800px !important;
@@ -398,7 +402,6 @@ video {
     font-size: 40px;
     color: #1abc9c;
     bottom: 0%;
-    cursor: pointer;
 }
 
 
